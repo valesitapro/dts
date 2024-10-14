@@ -2,14 +2,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 
 body {
 	background: #dcdcd1;
 }
 
-h1 { color: #0d2c52; font-family: "Abril Fatface";
+
+body {
+	margin: 0;
+	font-family: "Rozha One", serif;
+	font-weight: 400px;
+	font-style: normal;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	/*background-color: green;*/
+	margin: auto;
+
+}
+/*codigos de video:*/
+.home{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px 15px;
+}
+
+.home .home-text {
+	text-align: center;
+
+}
+
+.home .home-text h1{
+	color: #0d2c52;
+	font-size: 60px;
+	color: #od2c52;
+	line-height: 56px;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+.home .home-text p{
+	margin: 0;
+	background-color: lightpink;
+}
+.home .home-text p span {
+	font-size: 40px;
+	color: #982e52;
+	font-weight: 700;
+	display: inline-block;
+	line-height: 46px;
+
+}h1 { color: #0d2c52; font-family: "Abril Fatface";
 }
 
 h2 { font-family: "Libre Baskerville" ; color:#982e52 }
